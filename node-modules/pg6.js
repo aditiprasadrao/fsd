@@ -36,16 +36,22 @@ const Counter = () => {
 
 export default Counter;
 
-//CAN ALSO BE USED
+//CAN ALSO BE USEDs
 //
-//useEffect(() => {
-//  const fetchData = async () => {
-//    try {
-//      const initialCount = await new Promise(...); // simulate delay
-//      setCount(initialCount); // set count to 0 after delay
-//    } catch (error) {
-//      console.error("Error fetching data:", error);
-//    }
-//  };
-//  fetchData();
-//}, []);
+  //useEffect(() => {
+  //  const fetchData = async () => {
+  //    try {
+  //      // Simulating an API call (e.g., getting initial count)
+  //      const initialCount = await new Promise((resolve) => {
+  //        setTimeout(() => {
+  //          resolve(0); // Simulate API returning 0
+  //        }, 1000); // 1 second delay
+  //      });
+//
+  //      // Update the state with the fetched count
+  //      setCount(initialCount);
+  //    } catch (error) {
+  //      console.error("Error fetching data:", error);
+  //    }
+  //  };
+
